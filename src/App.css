@@ -28,6 +28,46 @@
   color: #61dafb;
 }
 
+.Klein-Blue {
+  color: #002FA7;
+}
+
+.Prussia-Blue {
+  background-color: #003153;
+}
+
+.Cyan {
+  color: #81D8D0;
+}
+
+.Deep-Cyan {
+  background-color: #008C8C;
+}
+
+.Orange-Dynamite {
+  background-color: #E85827;
+}
+
+.Burgundy-Red {
+  color: #800020;
+}
+
+.Bordeaux-Red {
+  color: #4C0009;
+}
+
+.Warm-Red {
+  color: #B05923;
+}
+
+.Dark-Pastel-Orange {
+  color: #8F4B28;
+}
+
+.Bright-Yellow {
+  color: #F9DC24;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
