@@ -3,6 +3,7 @@
 
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -23,7 +24,7 @@
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  padding-left: 2%;
+  padding-left: 3%;
   font-family: "Inconsolata", serif;
   font-size: calc(5px + 2vmin);
   color: #F9F6EE;
@@ -45,6 +46,17 @@
 .centered-div {
   min-width: 80%;
   padding-bottom: 5%;
+}
+
+.custom-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.custom-nav .nav-link {
+  flex: 1 1 auto; /* Allow items to grow and shrink */
+  margin: 5px; /* Optional spacing between items */
 }
 
 .front-navbar {
