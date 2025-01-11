@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import { Stack } from 'react-bootstrap';
 
-import CataniaEtnea from './pictures/Catania_Etnea.jpeg';
-import CataniaStesicoro from './pictures/Catania_Stesicoro.jpeg';
+import CataniaEtnea from './assets/images/Catania_Etnea.jpeg';
+import CataniaStesicoro from './assets/images/Catania_Stesicoro.jpeg';
 
 function App() {
   return (
