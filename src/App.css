@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Avenir:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
 .App {
   text-align: center;
@@ -22,7 +23,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Avenir', sans-serif;
+  font-family: "Inconsolata", serif;
   font-size: calc(5px + 2vmin);
   color: #F9F6EE;
 }
@@ -36,7 +37,7 @@
   flex-direction: column;
   justify-content: center;  /* Horizontally centers the child element */
   align-items: center;      /* Vertically centers the child element (optional) */
-  font-family: 'Avenir', sans-serif;
+  font-family: "Inconsolata", serif;
   padding-top: 5%;
 }
 
@@ -50,7 +51,7 @@
   height: 100%;
   justify-content: right;
   align-items: center;
-  font-family: 'Avenir', sans-serif;
+  font-family: "Inconsolata", serif;
   font-size: 3vmin;
   border-radius: 1%;
 }
@@ -84,7 +85,7 @@
 }
 
 .text {
-  font-size: 2vmin;   /* Customize the text size */
+  font-size: 3vmin;   /* Customize the text size */
 }
 
 .Klein-Blue {
