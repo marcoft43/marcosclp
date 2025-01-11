@@ -3,13 +3,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Front_Navbar from './components/Navbar';
 import Berlin from "./pages/Berlin";
 import Catania from "./pages/Catania";
+import Firenze from './pages/Firenze';
 import Potsdam from './pages/Potsdam';
 import Praha from './pages/Prague';
 import Tallinn from './pages/Tallinn';
 import Wien from './pages/Wien';
 
 import './App.css';
-import BerlinStreets from './assets/images/Berlin.png';
 
 const App = () => {
   return (
@@ -24,6 +24,9 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path='/Catania' element={<Catania />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Firenze' element={<Firenze />}/>
         </Routes>
         <Routes>
           <Route path='/Potsdam' element={<Potsdam />}/>
