@@ -21,8 +21,9 @@
   min-height: 10vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
+  padding-left: 2%;
   font-family: "Inconsolata", serif;
   font-size: calc(5px + 2vmin);
   color: #F9F6EE;
@@ -50,6 +51,7 @@
   display: flex;
   flex-direction: row;
   padding-inline: 10%;
+  font-size: 3vmin;
 }
 
 .navbar-brand.me-5 {
@@ -70,32 +72,36 @@
   border-radius: 1%;
 }
 
-.text-with-bar-vertical {
+.text-with-bar {
   display: flex;
   align-items: center;  /* Vertically center the text and color bar */
   justify-content: left;
-  padding-left: 20%;
 }
 
-.text-with-bar-horizontal {
-  display: flex;
-  align-items: center;  /* Vertically center the text and color bar */
-  justify-content: left;
+.padding-left-5 {
   padding-left: 5%;
 }
 
-.color-bar-orange-dynamite {
+.padding-left-20 {
+  padding-left: 20%;
+}
+
+.color-bar {
   width: 10px;       /* Width of the color bar */
   height: 5vh;      /* Make the color bar span the full height of the container */
-  background-color: #E85827; /* Choose any color you like */
   margin-right: 10px;  /* Space between the color bar and the text */
 }
 
-.color-bar-klein-blue {
-  width: 10px;       /* Width of the color bar */
-  height: 5vh;      /* Make the color bar span the full height of the container */
+.orange-dynamite {
+  background-color: #E85827; /* Choose any color you like */
+}
+
+.klein-blue {
   background-color: #002FA7; /* Choose any color you like */
-  margin-right: 10px;  /* Space between the color bar and the text */
+}
+
+.warm-red {
+  background-color: #B05923;
 }
 
 .text {
@@ -130,10 +136,6 @@
 
 .Bordeaux-Red {
   color: #4C0009;
-}
-
-.Warm-Red {
-  color: #B05923;
 }
 
 .Dark-Pastel-Orange {
