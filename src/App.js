@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h4>I see that it is by no means useless to travel, if a man wants to see something new.</h4>
+        <h4>Eine Besondere Vergänglichkeit</h4>
       </header>
       
       <div className='container'>
@@ -25,6 +25,10 @@ function App() {
           </div>
         </div>
       </div>
+
+      <header className="App-header">
+        <h6>Ihre Augen will ich wiedersehn,<br />Ihr Blick ist mein Stern,<br />Alles andre mag gehn und verwhen,<br />Alles stirbt, alles stirbt gern.</h6>
+      </header>
     </div>
   );
 }
