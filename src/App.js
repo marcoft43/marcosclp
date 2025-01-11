@@ -1,35 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Front_Navbar from './components/Navbar';
+import Catania from "./pages/Catania";
 import './App.css';
-import { Stack } from 'react-bootstrap';
 
-import CataniaEtnea from './assets/images/Catania_Etnea.jpeg';
-import CataniaStesicoro from './assets/images/Catania_Stesicoro.jpeg';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <Router>
       <header className="App-header">
         <h2>Eine Besondere Vergänglichkeit</h2>
       </header>
-      
-      <div className='container'>
-        <div className='centered-div'>
-          <img src={CataniaEtnea} alt="Catania Etnea" style={{width: '60%', height: 'auto'}}/>
-          <div className="text-with-bar-vertical">
-            <div className="color-bar-orange-dynamite"></div>
-            <span className="text">Catania - Via Etnea</span>
-          </div>
-        </div>
-        <div className='centered-div'>
-          <img src={CataniaStesicoro} alt="Catania Stesicoro" style={{width: '90%', height: 'auto'}}/>
-          <div className="text-with-bar-horizontal">
-            <div className="color-bar-klein-blue"></div>
-            <span className="text">Catania - Piazza Stesicoro</span>
-          </div>
-        </div>
+      <Front_Navbar />
+      <div>
+        <Routes>
+          <Route path='/Catania' element={<Catania />}/>
+        </Routes>
       </div>
-
-    </div>
+    </Router>
   );
 }
 
