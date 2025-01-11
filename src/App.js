@@ -9,6 +9,7 @@ import Koln from './pages/Koln';
 import Munich from './pages/Munich';
 import Potsdam from './pages/Potsdam';
 import Praha from './pages/Prague';
+import Siracusa from './pages/Siracusa';
 import Tallinn from './pages/Tallinn';
 import Wien from './pages/Wien';
 
@@ -45,6 +46,9 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path='/Praha' element={<Praha />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Siracusa' element={<Siracusa />}/>
         </Routes>
         <Routes>
           <Route path='/Tallinn' element={<Tallinn />}/>
