@@ -1,6 +1,6 @@
 import '../App.css';
 
-import Tallinn1 from '../assets/images/Tallinn_Toom_Rüütli.jpg';
+import Tallinn1 from '../assets/images/Tallinn_Toom_Ruutli.jpg';
 import Tallinn2 from '../assets/images/Tallinn_Kohtu.jpg';
 
 const Tallinn = () => {

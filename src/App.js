@@ -7,7 +7,9 @@ import Potsdam from './pages/Potsdam';
 import Praha from './pages/Prague';
 import Tallinn from './pages/Tallinn';
 import Wien from './pages/Wien';
+
 import './App.css';
+import BerlinStreets from './assets/images/Berlin.png';
 
 const App = () => {
   return (

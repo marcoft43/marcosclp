@@ -108,6 +108,10 @@
   font-size: 3vmin;   /* Customize the text size */
 }
 
+.text-small {
+  font-size: 1vmin;   /* Customize the text size */
+}
+
 .sky-blue {
   background-color: #8ACDEA;
 }
@@ -148,9 +152,8 @@
   background-color: #4DFFF3;
 }
 
-.Orange-Dynamite {
+.light-gray-orange {
   background-color: #F9F6EE;
-  min-width: 80%;
 }
 
 .licorice {
