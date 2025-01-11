@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Avenir:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
 .App {
   text-align: center;
 }
@@ -15,17 +17,59 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Avenir', sans-serif;
+  font-size: calc(5px + 2vmin);
+  color: #F9F6EE;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Horizontally centers the child element */
+  align-items: center;      /* Vertically centers the child element (optional) */
+  font-family: 'Avenir', sans-serif;
+  padding-top: 5%;
+}
+
+.centered-div {
+  min-width: 80%;
+}
+
+.Picture-Stack {
+  width: 90%;
+  height: 100%;
+  justify-content: right;
+  align-items: center;
+  font-family: 'Avenir', sans-serif;
+  font-size: 2vmin;
+  border-radius: 1%;
+}
+
+.text-with-bar {
+  display: flex;
+  align-items: center;  /* Vertically center the text and color bar */
+  justify-content: left;
+  padding-left: 20%;
+}
+
+.color-bar-orange-dynamite {
+  width: 10px;       /* Width of the color bar */
+  height: 5vh;      /* Make the color bar span the full height of the container */
+  background-color: #E85827; /* Choose any color you like */
+  margin-right: 10px;  /* Space between the color bar and the text */
+}
+
+.text {
+  font-size: 16px;   /* Customize the text size */
 }
 
 .Klein-Blue {
@@ -42,10 +86,12 @@
 
 .Deep-Cyan {
   background-color: #008C8C;
+  min-width: 80%;
 }
 
 .Orange-Dynamite {
-  background-color: #E85827;
+  background-color: #F9F6EE;
+  min-width: 80%;
 }
 
 .Burgundy-Red {
