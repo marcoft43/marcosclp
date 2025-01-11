@@ -25,10 +25,7 @@ function App() {
           </div>
         </div>
       </div>
-
-      <header className="App-header">
-        <h6>Ihre Augen will ich wiedersehn,<br />Ihr Blick ist mein Stern,<br />Alles andre mag gehn und verwhen,<br />Alles stirbt, alles stirbt gern.</h6>
-      </header>
+      
     </div>
   );
 }
