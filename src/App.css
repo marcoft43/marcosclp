@@ -42,6 +42,7 @@
 
 .centered-div {
   min-width: 80%;
+  padding-bottom: 5%;
 }
 
 .Picture-Stack {
@@ -50,15 +51,22 @@
   justify-content: right;
   align-items: center;
   font-family: 'Avenir', sans-serif;
-  font-size: 2vmin;
+  font-size: 3vmin;
   border-radius: 1%;
 }
 
-.text-with-bar {
+.text-with-bar-vertical {
   display: flex;
   align-items: center;  /* Vertically center the text and color bar */
   justify-content: left;
   padding-left: 20%;
+}
+
+.text-with-bar-horizontal {
+  display: flex;
+  align-items: center;  /* Vertically center the text and color bar */
+  justify-content: left;
+  padding-left: 5%;
 }
 
 .color-bar-orange-dynamite {
@@ -68,8 +76,15 @@
   margin-right: 10px;  /* Space between the color bar and the text */
 }
 
+.color-bar-klein-blue {
+  width: 10px;       /* Width of the color bar */
+  height: 5vh;      /* Make the color bar span the full height of the container */
+  background-color: #002FA7; /* Choose any color you like */
+  margin-right: 10px;  /* Space between the color bar and the text */
+}
+
 .text {
-  font-size: 16px;   /* Customize the text size */
+  font-size: 2vmin;   /* Customize the text size */
 }
 
 .Klein-Blue {
