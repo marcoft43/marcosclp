@@ -2,7 +2,7 @@ import '../App.css';
 
 import PragueChurch from '../assets/images/Prague_Church_of_Our_Lady.jpeg';
 
-const Prague = () => {
+const Praha = () => {
   return(
     <div className="App">
       <div className='container'>
@@ -10,7 +10,7 @@ const Prague = () => {
           <img src={PragueChurch} alt="Prague Church" style={{width: '60%', height: 'auto'}}/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar prussia-blue"></div>
-            <span className="text">Prague - Old Town Square</span>
+            <span className="text">Praha - Old Town Square</span>
           </div>
         </div>
       </div>
@@ -18,4 +18,4 @@ const Prague = () => {
   );
 }
 
-export default Prague;
+export default Praha;

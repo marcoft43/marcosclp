@@ -96,33 +96,56 @@
   background-color: #E85827; /* Choose any color you like */
 }
 
-.klein-blue {
-  background-color: #002FA7; /* Choose any color you like */
-}
-
 .warm-red {
   background-color: #B05923;
+}
+
+.pumpkin-orange {
+  background-color: #FF6700;
 }
 
 .text {
   font-size: 3vmin;   /* Customize the text size */
 }
 
-.Klein-Blue {
-  color: #002FA7;
+.sky-blue {
+  background-color: #8ACDEA;
+}
+
+.bice-blue {
+  background-color: #3A6EA5;
+}
+
+.polynesian-blue {
+  background-color: #004E98;
+}
+
+.klein-blue {
+  background-color: #002FA7; /* Choose any color you like */
 }
 
 .prussia-blue {
   background-color: #003153;
 }
 
-.Cyan {
-  color: #81D8D0;
+.cyan {
+  background-color: #81D8D0;
 }
 
-.Deep-Cyan {
+.deep-cyan {
   background-color: #008C8C;
-  min-width: 80%;
+}
+
+.aquamarine {
+  background-color: #52FFB8;
+}
+
+.kepple {
+  background-color: #2EBFA5;
+}
+
+.fluorescent-cyan {
+  background-color: #4DFFF3;
 }
 
 .Orange-Dynamite {
@@ -130,16 +153,32 @@
   min-width: 80%;
 }
 
-.Burgundy-Red {
-  color: #800020;
+.licorice {
+  background-color: #1E1014;
 }
 
-.Bordeaux-Red {
-  color: #4C0009;
+.burgundy-red {
+  background-color: #800020;
 }
 
-.Dark-Pastel-Orange {
+.bordeaux-red {
+  background-color: #4C0009;
+}
+
+.dark-pastel-orange {
   color: #8F4B28;
+}
+
+.raspberry-red {
+  background-color: #CE2D4F;
+}
+
+.blush-red {
+  background-color: #CE6D8B;
+}
+
+.thistle-white-red {
+  background-color: #CEBBC9;
 }
 
 .Bright-Yellow {
