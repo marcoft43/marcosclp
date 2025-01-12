@@ -25,6 +25,7 @@ const Front_Navbar = () => {
           <Nav.Link href="/Ragusa" className='me-3'>Ragusa</Nav.Link>
           <Nav.Link href="/Siracusa" className='me-3'>Siracusa</Nav.Link>
           <Nav.Link href="/Tallinn" className='me-3'>Tallinn</Nav.Link>
+          <Nav.Link href="/Taormina" className='me-3'>Taormina</Nav.Link>
           <Nav.Link href="/Wien" className='me-3'>Wien</Nav.Link>
           <Nav.Link href="/Zurich" className='me-3'>Zürich</Nav.Link>
         </Nav>
