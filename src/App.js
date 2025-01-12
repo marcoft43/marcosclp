@@ -10,6 +10,7 @@ import Firenze from './pages/Firenze';
 import Helsinki from './pages/Helsinki';
 import Koln from './pages/Koln';
 import Munich from './pages/Munich';
+import Noto from './pages/Noto';
 import Potsdam from './pages/Potsdam';
 import Praha from './pages/Prague';
 import Ragusa from './pages/Ragusa';
@@ -54,6 +55,9 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path='/Munich' element={<Munich />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Noto' element={<Noto />}/>
         </Routes>
         <Routes>
           <Route path='/Potsdam' element={<Potsdam />}/>
