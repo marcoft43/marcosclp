@@ -11,12 +11,17 @@ const Front_Navbar = () => {
         <Nav className="custom-nav">
           <Nav.Link href="/Barcelona" className='me-3'>Barcelona</Nav.Link>
           <Nav.Link href="/Berlin" className='me-3'>Berlin</Nav.Link>
+          <Nav.Link href="/Bologna" className='me-3'>Bologna</Nav.Link>
           <Nav.Link href="/Bronte" className='me-3'>Bronte</Nav.Link>
           <Nav.Link href="/Catania" className='me-3'>Catania</Nav.Link>
           <Nav.Link href="/Chicago" className='me-3'>Chicago</Nav.Link>
+          <Nav.Link href="/Columbus" className='me-3'>Ohio State</Nav.Link>
           <Nav.Link href="/Dusseldorf" className='me-3'>Düsseldorf</Nav.Link>
           <Nav.Link href="/Firenze" className='me-3'>Firenze</Nav.Link>
+          <Nav.Link href="/FL" className='me-3'>Fort Lauderdale</Nav.Link>
+          <Nav.Link href="/Hannover" className='me-3'>Hannover</Nav.Link>
           <Nav.Link href="/Helsinki" className='me-3'>Helsinki</Nav.Link>
+          <Nav.Link href="/Houston" className='me-3'>Houston</Nav.Link>
           <Nav.Link href="/HK" className='me-3'>Hong Kong</Nav.Link>
           <Nav.Link href="/Koln" className='me-3'>Köln</Nav.Link>
           <Nav.Link href="/LA" className='me-3'>Los Angeles</Nav.Link>
@@ -29,6 +34,7 @@ const Front_Navbar = () => {
           <Nav.Link href="/Siracusa" className='me-3'>Siracusa</Nav.Link>
           <Nav.Link href="/Tallinn" className='me-3'>Tallinn</Nav.Link>
           <Nav.Link href="/Taormina" className='me-3'>Taormina</Nav.Link>
+          <Nav.Link href="/Virginia" className='me-3'>Virginia</Nav.Link>
           <Nav.Link href="/Wien" className='me-3'>Wien</Nav.Link>
           <Nav.Link href="/Zurich" className='me-3'>Zürich</Nav.Link>
         </Nav>
