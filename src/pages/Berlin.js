@@ -2,8 +2,9 @@ import '../App.css';
 
 import BerlinWannsee from '../assets/images/Berlin_Wannsee.jpg';
 import BerlinFox from '../assets/images/Berlin_Fox.jpg';
-import BerlinKudamm from '../assets/images/Berlin_Kudamm.jpeg'
-import BerlinBrandenburgTor from '../assets/images/Berlin_Brandenburg_Tor.jpeg'
+import BerlinKudamm from '../assets/images/Berlin_Kudamm.jpeg';
+import BerlinBrandenburgTor from '../assets/images/Berlin_Brandenburg_Tor.jpeg';
+import BerlinKreuzberg from '../assets/images/Berlin_Kreuzberg.jpg';
 
 const Berlin = () => {
   return(
@@ -21,6 +22,13 @@ const Berlin = () => {
           <div className="text-with-bar padding-left-5">
             <div className="color-bar dark-pastel-orange"></div>
             <span className="text">Berlin - Brandenburg Tor</span>
+          </div>
+        </div>
+        <div className='centered-div'>
+          <img src={BerlinKreuzberg} alt="Berlin Kreuzberg" style={{width: '90%', height: 'auto'}}/>
+          <div className="text-with-bar padding-left-5">
+            <div className="color-bar bordeaux-red"></div>
+            <span className="text">Berlin - Kreuzberg</span>
           </div>
         </div>
         <div className='centered-div'>

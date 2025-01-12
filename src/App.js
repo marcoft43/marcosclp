@@ -8,26 +8,33 @@ import Bronte from './pages/Bronte';
 import Catania from "./pages/Catania";
 import Chicago from './pages/Chicago';
 import Columbus from './pages/Columbus';
+import Dresden from './pages/Dresden';
 import Dusseldorf from './pages/Dusseldorf';
 import Firenze from './pages/Firenze';
 import FL from './pages/Fort_Laudedale';
 import Hannover from './pages/Hannover';
 import Helsinki from './pages/Helsinki';
 import Houston from './pages/Houston';
+import Hudson from './pages/Hudson';
 import HK from './pages/HK';
 import Koln from './pages/Koln';
 import LA from './pages/LA';
+import Leipzig from './pages/Leipzig';
+import Madison from './pages/Madison';
 import Munich from './pages/Munich';
 import Noto from './pages/Noto';
 import NYC from './pages/NYC';
 import Potsdam from './pages/Potsdam';
 import Praha from './pages/Prague';
 import Ragusa from './pages/Ragusa';
+import Rostock from './pages/Rostock';
 import Siracusa from './pages/Siracusa';
+import Stuttgart from './pages/Stuttgart';
 import Tallinn from './pages/Tallinn';
 import Taormina from './pages/Taormina';
 import Virginia from './pages/Virginia';
 import Wien from './pages/Wien';
+import Zollverein from './pages/Zollverein';
 import Zurich from './pages/Zurich';
 
 import './App.css';
@@ -62,6 +69,9 @@ const App = () => {
           <Route path='/Columbus' element={<Columbus />}/>
         </Routes>
         <Routes>
+          <Route path='/Dresden' element={<Dresden />}/>
+        </Routes>
+        <Routes>
           <Route path='/Dusseldorf' element={<Dusseldorf />}/>
         </Routes>
         <Routes>
@@ -80,6 +90,9 @@ const App = () => {
           <Route path='/Houston' element={<Houston />}/>
         </Routes>
         <Routes>
+          <Route path='/Hudson' element={<Hudson />}/>
+        </Routes>
+        <Routes>
           <Route path='/HK' element={<HK />}/>
         </Routes>
         <Routes>
@@ -87,6 +100,12 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path='/LA' element={<LA />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Leipzig' element={<Leipzig />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Madison' element={<Madison />}/>
         </Routes>
         <Routes>
           <Route path='/Munich' element={<Munich />}/>
@@ -107,7 +126,13 @@ const App = () => {
           <Route path='/Ragusa' element={<Ragusa />}/>
         </Routes>
         <Routes>
+          <Route path='/Rostock' element={<Rostock />}/>
+        </Routes>
+        <Routes>
           <Route path='/Siracusa' element={<Siracusa />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Stuttgart' element={<Stuttgart />}/>
         </Routes>
         <Routes>
           <Route path='/Tallinn' element={<Tallinn />}/>
@@ -120,6 +145,9 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path='/Wien' element={<Wien />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Zollverein' element={<Zollverein />}/>
         </Routes>
         <Routes>
           <Route path='/Zurich' element={<Zurich />}/>
