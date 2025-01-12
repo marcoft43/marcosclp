@@ -19,7 +19,7 @@ const Praha = () => {
           <img src={PragueChurch} alt="Prague Church" style={{width: '60%', height: 'auto'}}/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar prussia-blue"></div>
-            <span className="text">Praha - Old Town Square</span>
+            <span className="text">Praha - Chrám Matky Boží před Týnem</span>
           </div>
         </div>
         <div className='centered-div'>

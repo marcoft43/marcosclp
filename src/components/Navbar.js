@@ -8,18 +8,21 @@ const Front_Navbar = () => {
   return (
     <Navbar bg="dark" data-bs-theme="dark">
       <Container className="front-navbar">
-        <Navbar.Brand as={Link} to="/" className='me-5'>Home</Navbar.Brand>
         <Nav className="custom-nav">
           <Nav.Link href="/Barcelona" className='me-3'>Barcelona</Nav.Link>
           <Nav.Link href="/Berlin" className='me-3'>Berlin</Nav.Link>
           <Nav.Link href="/Bronte" className='me-3'>Bronte</Nav.Link>
           <Nav.Link href="/Catania" className='me-3'>Catania</Nav.Link>
+          <Nav.Link href="/Chicago" className='me-3'>Chicago</Nav.Link>
           <Nav.Link href="/Dusseldorf" className='me-3'>Düsseldorf</Nav.Link>
           <Nav.Link href="/Firenze" className='me-3'>Firenze</Nav.Link>
           <Nav.Link href="/Helsinki" className='me-3'>Helsinki</Nav.Link>
+          <Nav.Link href="/HK" className='me-3'>Hong Kong</Nav.Link>
           <Nav.Link href="/Koln" className='me-3'>Köln</Nav.Link>
+          <Nav.Link href="/LA" className='me-3'>Los Angeles</Nav.Link>
           <Nav.Link href="/Munich" className='me-3'>München</Nav.Link>
           <Nav.Link href="/Noto" className='me-3'>Noto</Nav.Link>
+          <Nav.Link href="/NYC" className='me-3'>New York City</Nav.Link>
           <Nav.Link href="/Potsdam" className='me-3'>Potsdam</Nav.Link>
           <Nav.Link href="/Praha" className='me-3'>Praha</Nav.Link>
           <Nav.Link href="/Ragusa" className='me-3'>Ragusa</Nav.Link>
