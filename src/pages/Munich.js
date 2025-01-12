@@ -3,6 +3,7 @@ import '../App.css';
 import MunichSendlingerTor from '../assets/images/Munich_SendlingerTor.jpg';
 import MunichMarienPlatz from '../assets/images/Munich_MarienPlatz.jpg'
 import MunichIsar from '../assets/images/Munich_Isar.jpg';
+import MunichCarino from '../assets/images/Munich_Carino.jpg';
 
 const Munich = () => {
   return(
@@ -23,10 +24,10 @@ const Munich = () => {
           </div>
         </div>
         <div className='centered-div'>
-          <img src={MunichMarienPlatz} alt="Munich Marien Platz" style={{width: '90%', height: 'auto'}}/>
-          <div className="text-with-bar padding-left-5">
-            <div className="color-bar licorice"></div>
-            <span className="text">München - Marienplatz</span>
+          <img src={MunichCarino} alt="Munich Carino" style={{width: '60%', height: 'auto'}}/>
+          <div className="text-with-bar padding-left-20">
+            <div className="color-bar bright-yellow"></div>
+            <span className="text">München - Piccolo Carino in Grünwald</span>
           </div>
         </div>
       </div>

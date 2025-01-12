@@ -2,9 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Front_Navbar from './components/Navbar';
 import Berlin from "./pages/Berlin";
+import Bronte from './pages/Bronte';
 import Catania from "./pages/Catania";
 import Dusseldorf from './pages/Dusseldorf';
 import Firenze from './pages/Firenze';
+import Helsinki from './pages/Helsinki';
 import Koln from './pages/Koln';
 import Munich from './pages/Munich';
 import Potsdam from './pages/Potsdam';
@@ -12,6 +14,7 @@ import Praha from './pages/Prague';
 import Siracusa from './pages/Siracusa';
 import Tallinn from './pages/Tallinn';
 import Wien from './pages/Wien';
+import Zurich from './pages/Zurich';
 
 import './App.css';
 
@@ -27,6 +30,9 @@ const App = () => {
           <Route path='/Berlin' element={<Berlin />}/>
         </Routes>
         <Routes>
+          <Route path='/Bronte' element={<Bronte />}/>
+        </Routes>
+        <Routes>
           <Route path='/Catania' element={<Catania />}/>
         </Routes>
         <Routes>
@@ -34,6 +40,9 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path='/Firenze' element={<Firenze />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Helsinki' element={<Helsinki />}/>
         </Routes>
         <Routes>
           <Route path='/Koln' element={<Koln />}/>
@@ -55,6 +64,9 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path='/Wien' element={<Wien />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Zurich' element={<Zurich />}/>
         </Routes>
       </div>
     </Router>
