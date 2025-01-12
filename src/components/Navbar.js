@@ -10,6 +10,7 @@ const Front_Navbar = () => {
       <Container className="front-navbar">
         <Navbar.Brand as={Link} to="/" className='me-5'>Home</Navbar.Brand>
         <Nav className="custom-nav">
+          <Nav.Link href="/Barcelona" className='me-3'>Barcelona</Nav.Link>
           <Nav.Link href="/Berlin" className='me-3'>Berlin</Nav.Link>
           <Nav.Link href="/Bronte" className='me-3'>Bronte</Nav.Link>
           <Nav.Link href="/Catania" className='me-3'>Catania</Nav.Link>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Front_Navbar from './components/Navbar';
+import Barcelona from './pages/Barcelona';
 import Berlin from "./pages/Berlin";
 import Bronte from './pages/Bronte';
 import Catania from "./pages/Catania";
@@ -26,6 +27,9 @@ const App = () => {
       </header>
       <Front_Navbar />
       <div>
+        <Routes>
+          <Route path='/Barcelona' element={<Barcelona />}/>
+        </Routes>
         <Routes>
           <Route path='/Berlin' element={<Berlin />}/>
         </Routes>
