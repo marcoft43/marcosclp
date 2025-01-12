@@ -26,14 +26,14 @@ const Taormina = () => {
         <div className='centered-div'>
           <img src={Taormina3} alt="Taormina" style={{width: '90%', height: 'auto'}}/>
           <div className="text-with-bar padding-left-5">
-            <div className="color-bar warm-red"></div>
+            <div className="color-bar light-coral"></div>
             <span className="text">Taormina - Sunset</span>
           </div>
         </div>
         <div className='centered-div'>
           <img src={Taormina4} alt="Taormina" style={{width: '90%', height: 'auto'}}/>
           <div className="text-with-bar padding-left-5">
-            <div className="color-bar prussia-blue"></div>
+            <div className="color-bar klein-blue"></div>
             <span className="text">Taormina - Piazza IX Aprile</span>
           </div>
         </div>
