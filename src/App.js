@@ -20,6 +20,7 @@ import HK from './pages/HK';
 import Koln from './pages/Koln';
 import LA from './pages/LA';
 import Leipzig from './pages/Leipzig';
+import Livorno from './pages/Livorno';
 import Madison from './pages/Madison';
 import Munich from './pages/Munich';
 import Noto from './pages/Noto';
@@ -106,6 +107,9 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path='/Leipzig' element={<Leipzig />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Livorno' element={<Livorno />}/>
         </Routes>
         <Routes>
           <Route path='/Madison' element={<Madison />}/>
