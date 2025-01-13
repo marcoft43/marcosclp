@@ -18,7 +18,7 @@ const Pisa = () => {
           <img src={Pisa2} alt="Pisa2" style={{width: '90%', height: 'auto'}}/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar orange-dynamite"></div>
-            <span className="text">Pisa - Sunset</span>
+            <span className="text">Pisa - Sunset on the Arno River</span>
           </div>
         </div>
       </div>
