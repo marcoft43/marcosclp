@@ -10,6 +10,7 @@ import Chicago from './pages/Chicago';
 import Columbus from './pages/Columbus';
 import Dresden from './pages/Dresden';
 import Dusseldorf from './pages/Dusseldorf';
+import Eibsee from './pages/Eibsee';
 import Firenze from './pages/Firenze';
 import FL from './pages/Fort_Laudedale';
 import Hannover from './pages/Hannover';
@@ -77,6 +78,9 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path='/Dusseldorf' element={<Dusseldorf />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Eibsee' element={<Eibsee />}/>
         </Routes>
         <Routes>
           <Route path='/Firenze' element={<Firenze />}/>

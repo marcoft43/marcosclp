@@ -8,14 +8,14 @@ const NYC = () => {
     <div className="App">
       <div className='container'>
         <div className='centered-div'>
-          <img src={NYC1} alt="NYC" style={{width: '60%', height: 'auto'}}/>
+          <img src={NYC1} alt="NYC" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar aero-blue"></div>
             <span className="text">New York City - View from Hudson River</span>
           </div>
         </div>
         <div className='centered-div'>
-          <img src={NYC2} alt="NYC" style={{width: '60%', height: 'auto'}}/>
+          <img src={NYC2} alt="NYC" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar burgundy-red"></div>
             <span className="text">New York City - Times Square</span>

@@ -9,21 +9,21 @@ const Chicago = () => {
     <div className="App">
       <div className='container'>
         <div className='centered-div'>
-          <img src={Chicago1} alt="Chicago" style={{width: '60%', height: 'auto'}}/>
+          <img src={Chicago1} alt="Chicago" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar kepple"></div>
             <span className="text">Chicago - View from DuSable Bridge</span>
           </div>
         </div>
         <div className='centered-div'>
-          <img src={Chicago2} alt="Chicago" style={{width: '60%', height: 'auto'}}/>
+          <img src={Chicago2} alt="Chicago" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar bordeaux-red"></div>
             <span className="text">Chicago - "The L" train on N Franklin Street</span>
           </div>
         </div>
         <div className='centered-div'>
-          <img src={Chicago3} alt="Chicago" style={{width: '60%', height: 'auto'}}/>
+          <img src={Chicago3} alt="Chicago" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar licorice"></div>
             <span className="text">Chicago - View from above</span>

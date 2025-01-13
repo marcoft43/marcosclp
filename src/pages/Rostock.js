@@ -7,7 +7,7 @@ const Rostock = () => {
     <div className="App">
       <div className='container'>
         <div className='centered-div'>
-          <img src={Rostock1} alt="Rostock" style={{width: '60%', height: 'auto'}}/>
+          <img src={Rostock1} alt="Rostock" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar klein-blue"></div>
             <span className="text">Rostock - Seebad Warnemünde</span>

@@ -9,21 +9,21 @@ const Barcelona = () => {
     <div className="App">
       <div className='container'>
         <div className='centered-div'>
-          <img src={Barcelona1} alt="Barcelona Barceloneta" style={{width: '60%', height: 'auto'}}/>
+          <img src={Barcelona1} alt="Barcelona Barceloneta" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar french-rose"></div>
-            <span className="text">Barcelona - Platja de la Barceloneta</span>
+            <span className="text">Barcelona - Sunrise at Platja de la Barceloneta</span>
           </div>
         </div>
         <div className='centered-div'>
-          <img src={Barcelona2} alt="Barcelona Eixample" style={{width: '60%', height: 'auto'}}/>
+          <img src={Barcelona2} alt="Barcelona Eixample" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar french-rose"></div>
             <span className="text">Barcelona - L'Eixample</span>
           </div>
         </div>
         <div className='centered-div'>
-          <img src={Barcelona3} alt="Barcelona Xurro" style={{width: '60%', height: 'auto'}}/>
+          <img src={Barcelona3} alt="Barcelona Xurro" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar bordeaux-red"></div>
             <span className="text">Barcelona - El Xurro</span>

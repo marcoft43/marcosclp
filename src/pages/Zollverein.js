@@ -7,7 +7,7 @@ const Zollverein = () => {
     <div className="App">
       <div className='container'>
         <div className='centered-div'>
-          <img src={Zollverein1} alt="Zollverein" style={{width: '60%', height: 'auto'}}/>
+          <img src={Zollverein1} alt="Zollverein" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar burgundy-red"></div>
             <span className="text">Zollverein - Doppelbock</span>

@@ -10,28 +10,28 @@ const Praha = () => {
     <div className="App">
       <div className='container'>
       <div className='centered-div'>
-          <img src={PragueBridge} alt="Prague Bridge" style={{width: '90%', height: 'auto'}}/>
+          <img src={PragueBridge} alt="Prague Bridge" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar licorice"></div>
             <span className="text">Praha - Malá Strana</span>
           </div>
         </div>
         <div className='centered-div'>
-          <img src={PragueChurch} alt="Prague Church" style={{width: '60%', height: 'auto'}}/>
+          <img src={PragueChurch} alt="Prague Church" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar prussia-blue"></div>
             <span className="text">Praha - Chrám Matky Boží před Týnem</span>
           </div>
         </div>
         <div className='centered-div'>
-          <img src={PragueStreet} alt="Prague Hastalsky" style={{width: '60%', height: 'auto'}}/>
+          <img src={PragueStreet} alt="Prague Hastalsky" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar polynesian-blue"></div>
             <span className="text">Praha - Haštalský Obvod</span>
           </div>
         </div>
         <div className='centered-div'>
-          <img src={PragueTram} alt="Prague Karmelitská" style={{width: '60%', height: 'auto'}}/>
+          <img src={PragueTram} alt="Prague Karmelitská" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar burgundy-red"></div>
             <span className="text">Praha - Karmelitská</span>

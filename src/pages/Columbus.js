@@ -11,7 +11,7 @@ const Columbus = () => {
     <div className="App">
       <div className='container'>
         <div className='centered-div'>
-          <img src={OSU1} alt="Columbus" style={{width: '60%', height: 'auto'}}/>
+          <img src={OSU1} alt="Columbus" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar osu-scarlet"></div>
             <span className="text">Ohio State - Ohio Stadium</span>
@@ -20,7 +20,7 @@ const Columbus = () => {
       </div>
       <div className='container'>
         <div className='centered-div'>
-          <img src={OSU2} alt="Houston" style={{width: '60%', height: 'auto'}}/>
+          <img src={OSU2} alt="Houston" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar osu-scarlet"></div>
             <span className="text">Ohio State - Oval</span>
@@ -29,7 +29,7 @@ const Columbus = () => {
       </div>
       <div className='container'>
         <div className='centered-div'>
-          <img src={OSU3} alt="Houston" style={{width: '60%', height: 'auto'}}/>
+          <img src={OSU3} alt="Houston" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar osu-scarlet"></div>
             <span className="text">Ohio State - School of Engineering at Hitchcock Hall</span>
@@ -38,7 +38,7 @@ const Columbus = () => {
       </div>
       <div className='container'>
         <div className='centered-div'>
-          <img src={OSU4} alt="Houston" style={{width: '60%', height: 'auto'}}/>
+          <img src={OSU4} alt="Houston" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar osu-scarlet"></div>
             <span className="text">Ohio State - School of Computer Science at Dreese Lab</span>
@@ -47,7 +47,7 @@ const Columbus = () => {
       </div>
       <div className='container'>
         <div className='centered-div'>
-          <img src={OSU5} alt="Houston" style={{width: '60%', height: 'auto'}}/>
+          <img src={OSU5} alt="Houston" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar osu-scarlet"></div>
             <span className="text">Ohio State - Out-R-Inn</span>

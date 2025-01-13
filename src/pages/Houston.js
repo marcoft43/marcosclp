@@ -8,7 +8,7 @@ const Houston = () => {
     <div className="App">
       <div className='container'>
         <div className='centered-div'>
-          <img src={Houston1} alt="Houston" style={{width: '60%', height: 'auto'}}/>
+          <img src={Houston1} alt="Houston" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar licorice"></div>
             <span className="text">Houston - Main Street</span>
@@ -17,7 +17,7 @@ const Houston = () => {
       </div>
       <div className='container'>
         <div className='centered-div'>
-          <img src={Houston2} alt="Houston" style={{width: '60%', height: 'auto'}}/>
+          <img src={Houston2} alt="Houston" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar burgundy-red"></div>
             <span className="text">Houston - NASA Johnson Space Center</span>

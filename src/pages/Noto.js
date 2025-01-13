@@ -8,14 +8,14 @@ const Noto = () => {
     <div className="App">
       <div className='container'>
       <div className='centered-div'>
-          <img src={Noto1} alt="Noto" style={{width: '90%', height: 'auto'}}/>
+          <img src={Noto1} alt="Noto" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar pumpkin-orange"></div>
             <span className="text">Noto - Una Strada</span>
           </div>
         </div>
         <div className='centered-div'>
-          <img src={Noto2} alt="Ragusa" style={{width: '90%', height: 'auto'}}/>
+          <img src={Noto2} alt="Ragusa" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar pumpkin-orange"></div>
             <span className="text">Ragusa - Un Caffè</span>

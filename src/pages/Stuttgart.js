@@ -8,14 +8,14 @@ const Stuttgart = () => {
     <div className="App">
       <div className='container'>
         <div className='centered-div'>
-          <img src={Stuttgart1} alt="Stuttgart" style={{width: '60%', height: 'auto'}}/>
+          <img src={Stuttgart1} alt="Stuttgart" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar kepple"></div>
             <span className="text">Stuttgart - Schlossplatz</span>
           </div>
         </div>
         <div className='centered-div'>
-          <img src={Stuttgart2} alt="Stuttgart" style={{width: '60%', height: 'auto'}}/>
+          <img src={Stuttgart2} alt="Stuttgart" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar kepple"></div>
             <span className="text">Stuttgart - Weinbau am Burgholzhof</span>

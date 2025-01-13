@@ -7,7 +7,7 @@ const Dresden = () => {
     <div className="App">
       <div className='container'>
         <div className='centered-div'>
-          <img src={Dresden1} alt="Dresden" style={{width: '60%', height: 'auto'}}/>
+          <img src={Dresden1} alt="Dresden" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar dark-pastel-orange"></div>
             <span className="text">Dresden - Bistum Dresden-Meißen</span>

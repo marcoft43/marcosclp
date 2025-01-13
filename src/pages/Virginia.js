@@ -8,7 +8,7 @@ const Virginia = () => {
     <div className="App">
       <div className='container'>
         <div className='centered-div'>
-          <img src={Virginia1} alt="Virginia" style={{width: '60%', height: 'auto'}}/>
+          <img src={Virginia1} alt="Virginia" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar warm-red"></div>
             <span className="text">Virginia - Jamestown English Settlement</span>
@@ -17,7 +17,7 @@ const Virginia = () => {
       </div>
       <div className='container'>
         <div className='centered-div'>
-          <img src={Virginia2} alt="Virginia" style={{width: '60%', height: 'auto'}}/>
+          <img src={Virginia2} alt="Virginia" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar kepple"></div>
             <span className="text">Virginia - Vineyard at Thomas Jefferson's Monticello</span>

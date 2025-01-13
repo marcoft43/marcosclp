@@ -8,14 +8,14 @@ const Nuremberg = () => {
     <div className="App">
       <div className='container'>
         <div className='centered-div'>
-          <img src={Nuremberg1} alt="Nuremberg" style={{width: '60%', height: 'auto'}}/>
+          <img src={Nuremberg1} alt="Nuremberg" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar orange-dynamite"></div>
             <span className="text">Nürnberg - Handwerkerhof</span>
           </div>
         </div>
         <div className='centered-div'>
-          <img src={Nuremberg2} alt="Nuremberg" style={{width: '60%', height: 'auto'}}/>
+          <img src={Nuremberg2} alt="Nuremberg" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar licorice"></div>
             <span className="text">Nürnberg - Kongresshalle</span>
