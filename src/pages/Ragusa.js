@@ -18,7 +18,7 @@ const Ragusa = () => {
         <div className='centered-div'>
           <img src={Ragusa1} alt="Ragusa" style={{width: '90%', height: 'auto'}}/>
           <div className="text-with-bar padding-left-5">
-            <div className="color-bar pumpkin-orange"></div>
+            <div className="color-bar blush-red"></div>
             <span className="text">Ragusa - Un Gatto</span>
           </div>
         </div>
