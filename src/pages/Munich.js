@@ -5,6 +5,7 @@ import MunichMarienPlatz from '../assets/images/Munich_MarienPlatz.jpg'
 import MunichIsar from '../assets/images/Munich_Isar.jpg';
 import MunichCarino from '../assets/images/Munich_Carino.jpg';
 import MunichNeuperlach from '../assets/images/Munich_Neuperlach.jpg';
+import MunichSchwabing from '../assets/images/Munich_Schwabing.jpg';
 
 const Munich = () => {
   return(
@@ -32,10 +33,17 @@ const Munich = () => {
           </div>
         </div>
         <div className='centered-div'>
-          <img src={MunichMarienPlatz} alt="Munich Marienplatz" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
-          <div className="text-with-bar padding-left-20">
+          <img src={MunichMarienPlatz} alt="Munich Marienplatz" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
+          <div className="text-with-bar padding-left-5">
             <div className="color-bar licorice"></div>
             <span className="text">München - Marienplatz</span>
+          </div>
+        </div>
+        <div className='centered-div'>
+          <img src={MunichSchwabing} alt="Munich Schwabing" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
+          <div className="text-with-bar padding-left-20">
+            <div className="color-bar french-rose"></div>
+            <span className="text">München - Schwabing</span>
           </div>
         </div>
         <div className='centered-div'>
