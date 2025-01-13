@@ -54,6 +54,11 @@
   justify-content: space-between;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: #282c34;
+}
+
 .custom-nav .nav-link {
   flex: 1 1 auto; /* Allow items to grow and shrink */
   margin: 5px; /* Optional spacing between items */
