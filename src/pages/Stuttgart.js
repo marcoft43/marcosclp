@@ -17,7 +17,7 @@ const Stuttgart = () => {
         <div className='centered-div'>
           <img src={Stuttgart2} alt="Stuttgart" style={{width: '60%', height: 'auto'}}/>
           <div className="text-with-bar padding-left-20">
-            <div className="color-bar keppke"></div>
+            <div className="color-bar kepple"></div>
             <span className="text">Stuttgart - Weinbau am Burgholzhof</span>
           </div>
         </div>
