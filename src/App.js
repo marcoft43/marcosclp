@@ -23,7 +23,9 @@ import Leipzig from './pages/Leipzig';
 import Madison from './pages/Madison';
 import Munich from './pages/Munich';
 import Noto from './pages/Noto';
+import Nuremberg from './pages/Nuremberg';
 import NYC from './pages/NYC';
+import Pisa from './pages/Pisa';
 import Potsdam from './pages/Potsdam';
 import Praha from './pages/Prague';
 import Ragusa from './pages/Ragusa';
@@ -32,6 +34,7 @@ import Siracusa from './pages/Siracusa';
 import Stuttgart from './pages/Stuttgart';
 import Tallinn from './pages/Tallinn';
 import Taormina from './pages/Taormina';
+import Ulm from './pages/Ulm';
 import Virginia from './pages/Virginia';
 import Wien from './pages/Wien';
 import Zollverein from './pages/Zollverein';
@@ -114,7 +117,13 @@ const App = () => {
           <Route path='/Noto' element={<Noto />}/>
         </Routes>
         <Routes>
+          <Route path='/Nuremberg' element={<Nuremberg />}/>
+        </Routes>
+        <Routes>
           <Route path='/NYC' element={<NYC />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Pisa' element={<Pisa />}/>
         </Routes>
         <Routes>
           <Route path='/Potsdam' element={<Potsdam />}/>
@@ -139,6 +148,9 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path='/Taormina' element={<Taormina />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Ulm' element={<Ulm />}/>
         </Routes>
         <Routes>
           <Route path='/Virginia' element={<Virginia />}/>

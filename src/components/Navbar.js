@@ -31,7 +31,9 @@ const Front_Navbar = () => {
           <Nav.Link href="/Madison" className='me-3'>Madison</Nav.Link>
           <Nav.Link href="/Munich" className='me-3'>München</Nav.Link>
           <Nav.Link href="/Noto" className='me-3'>Noto</Nav.Link>
+          <Nav.Link href="/Nuremberg" className='me-3'>Nürnberg</Nav.Link>
           <Nav.Link href="/NYC" className='me-3'>New York City</Nav.Link>
+          <Nav.Link href="/Pisa" className='me-3'>Pisa</Nav.Link>
           <Nav.Link href="/Potsdam" className='me-3'>Potsdam</Nav.Link>
           <Nav.Link href="/Praha" className='me-3'>Praha</Nav.Link>
           <Nav.Link href="/Ragusa" className='me-3'>Ragusa</Nav.Link>
@@ -40,6 +42,7 @@ const Front_Navbar = () => {
           <Nav.Link href="/Stuttgart" className='me-3'>Stuttgart</Nav.Link>
           <Nav.Link href="/Tallinn" className='me-3'>Tallinn</Nav.Link>
           <Nav.Link href="/Taormina" className='me-3'>Taormina</Nav.Link>
+          <Nav.Link href="/Ulm" className='me-3'>Ulm</Nav.Link>
           <Nav.Link href="/Virginia" className='me-3'>Virginia</Nav.Link>
           <Nav.Link href="/Wien" className='me-3'>Wien</Nav.Link>
           <Nav.Link href="/Zollverein" className='me-3'>Zollverein</Nav.Link>
