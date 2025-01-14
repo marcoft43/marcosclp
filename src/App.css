@@ -56,7 +56,14 @@
 
 .navbar a {
   text-decoration: none;
-  color: #282c34;
+}
+
+.navbar-camera {
+  color: #272727;
+}
+
+.navbar-phone {
+  color: #C7C7A6
 }
 
 .custom-nav .nav-link {

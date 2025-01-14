@@ -6,6 +6,7 @@ import MunichIsar from '../assets/images/Munich_Isar.jpg';
 import MunichCarino from '../assets/images/Munich_Carino.jpg';
 import MunichNeuperlach from '../assets/images/Munich_Neuperlach.jpg';
 import MunichSchwabing from '../assets/images/Munich_Schwabing.jpg';
+import MunichOlympiapark from '../assets/images/Munich_Olympiapark.jpg';
 
 const Munich = () => {
   return(
@@ -23,6 +24,13 @@ const Munich = () => {
           <div className="text-with-bar padding-left-5">
             <div className="color-bar polynesian-blue"></div>
             <span className="text">München - Isar</span>
+          </div>
+        </div>
+        <div className='centered-div'>
+          <img src={MunichOlympiapark} alt="Munich Olympiapark" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
+          <div className="text-with-bar padding-left-5">
+            <div className="color-bar polynesian-blue"></div>
+            <span className="text">München - Olympiapark</span>
           </div>
         </div>
         <div className='centered-div'>

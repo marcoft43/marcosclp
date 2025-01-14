@@ -38,7 +38,7 @@ const Berlin = () => {
             <div className="color-bar bright-yellow"></div>
             <span className="text">Berlin - U-Bahnhof Museumsinsel</span>
           </div>
-          <p style={{justifyContent: 'left'}}>Themed after stage set for <em>The Magic Flute</em> in Wien by Karl Friedrich Schinkel</p>
+          <p style={{justifyContent: 'left', fontSize: '2vmin'}}>Themed after stage set for <em>The Magic Flute</em> in Wien by Karl Friedrich Schinkel</p>
         </div>
         <div className='centered-div'>
           <img src={BerlinWannsee} alt="Berlin Wannsee" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
