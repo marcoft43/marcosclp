@@ -38,7 +38,7 @@ const Berlin = () => {
             <div className="color-bar bright-yellow"></div>
             <span className="text">Berlin - U-Bahnhof Museumsinsel</span>
           </div>
-          <p style={{justifyContent: 'left', fontSize: '2vmin'}}>Themed after stage set for <em>The Magic Flute</em> in Wien by Karl Friedrich Schinkel</p>
+          <p style={{justifyContent: 'left', fontSize: '2vmin'}}>Themed after stage set for <em>The Magic Flute</em> in Vienna by Karl Friedrich Schinkel</p>
         </div>
         <div className='centered-div'>
           <img src={BerlinWannsee} alt="Berlin Wannsee" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
@@ -51,7 +51,7 @@ const Berlin = () => {
           <img src={BerlinFox} alt="Berlin Fox" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
             <div className="color-bar warm-red"></div>
-            <span className="text">Berlin - Ein Fuchs am See</span>
+            <span className="text">Berlin - A fox</span>
           </div>
         </div>
       </div>

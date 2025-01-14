@@ -20,10 +20,17 @@ const Ragusa = () => {
           </div>
         </div>
         <div className='centered-div'>
+          <img src={RagusaCat} alt="Ragusa" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
+          <div className="text-with-bar padding-left-5">
+            <div className="color-bar light-gray-orange"></div>
+            <span className="text">Ragusa - A cat</span>
+          </div>
+        </div>
+        <div className='centered-div'>
           <img src={Ragusa1} alt="Ragusa" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar blush-red"></div>
-            <span className="text">Ragusa - A cat</span>
+            <span className="text">Ragusa - Two cats</span>
           </div>
         </div>
         <div className='centered-div'>
@@ -31,13 +38,6 @@ const Ragusa = () => {
           <div className="text-with-bar padding-left-5">
             <div className="color-bar light-gray-orange"></div>
             <span className="text">Ragusa - Piazza Duomo</span>
-          </div>
-        </div>
-        <div className='centered-div'>
-          <img src={RagusaCat} alt="Ragusa" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
-          <div className="text-with-bar padding-left-5">
-            <div className="color-bar light-gray-orange"></div>
-            <span className="text">Ragusa - A cat</span>
           </div>
         </div>
         <div className='centered-div'>
