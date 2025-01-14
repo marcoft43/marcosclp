@@ -43,7 +43,7 @@ const Front_Navbar = () => {
           <Nav.Link href="/Siracusa" className='me-3 navbar-camera'>Siracusa</Nav.Link>
           <Nav.Link href="/Stuttgart" className='me-3 navbar-phone'>Stuttgart</Nav.Link>
           <Nav.Link href="/Tallinn" className='me-3 navbar-camera'>Tallinn</Nav.Link>
-          <Nav.Link href="/Taormina" className='me-3 navbar-phone'>Taormina</Nav.Link>
+          <Nav.Link href="/Taormina" className='me-3 navbar-camera'>Taormina</Nav.Link>
           <Nav.Link href="/Ulm" className='me-3 navbar-phone'>Ulm</Nav.Link>
           <Nav.Link href="/Virginia" className='me-3 navbar-phone'>Virginia</Nav.Link>
           <Nav.Link href="/Wien" className='me-3 navbar-camera'>Wien</Nav.Link>
