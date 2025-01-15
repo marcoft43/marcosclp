@@ -29,6 +29,7 @@ import Noto from './pages/Noto';
 import Nuremberg from './pages/Nuremberg';
 import NYC from './pages/NYC';
 import OSU from './pages/OSU';
+import Palermo from './pages/Palermo';
 import Pisa from './pages/Pisa';
 import Potsdam from './pages/Potsdam';
 import Praha from './pages/Prague';
@@ -137,6 +138,9 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path='/OSU' element={<OSU />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Palermo' element={<Palermo />}/>
         </Routes>
         <Routes>
           <Route path='/Pisa' element={<Pisa />}/>
