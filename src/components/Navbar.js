@@ -9,6 +9,7 @@ const Front_Navbar = () => {
       <Container className="front-navbar">
         <Nav className="custom-nav">
           <Nav.Link href="/Barcelona" className='me-3 navbar-phone'>Barcelona</Nav.Link>
+          <Nav.Link href="/Beijing" className='me-3 navbar-phone'>Beijing</Nav.Link>
           <Nav.Link href="/Berlin" className='me-3 navbar-camera'>Berlin</Nav.Link>
           <Nav.Link href="/Bologna" className='me-3 navbar-phone'>Bologna</Nav.Link>
           <Nav.Link href="/Bronte" className='me-3 navbar-phone'>Bronte</Nav.Link>
@@ -49,6 +50,7 @@ const Front_Navbar = () => {
           <Nav.Link href="/Ulm" className='me-3 navbar-phone'>Ulm</Nav.Link>
           <Nav.Link href="/Virginia" className='me-3 navbar-phone'>Virginia</Nav.Link>
           <Nav.Link href="/Wien" className='me-3 navbar-camera'>Wien</Nav.Link>
+          <Nav.Link href="/Wuhan" className='me-3 navbar-camera'>Wuhan</Nav.Link>
           <Nav.Link href="/Zollverein" className='me-3 navbar-camera'>Zollverein</Nav.Link>
           <Nav.Link href="/Zurich" className='me-3 navbar-phone'>Zürich</Nav.Link>
         </Nav>

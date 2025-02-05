@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Front_Navbar from './components/Navbar';
 import Barcelona from './pages/Barcelona';
+import Beijing from './pages/Beijing';
 import Berlin from "./pages/Berlin";
 import Bologna from './pages/Bologna';
 import Bronte from './pages/Bronte';
@@ -42,6 +43,7 @@ import Taormina from './pages/Taormina';
 import Ulm from './pages/Ulm';
 import Virginia from './pages/Virginia';
 import Wien from './pages/Wien';
+import Wuhan from './pages/Wuhan';
 import Zollverein from './pages/Zollverein';
 import Zurich from './pages/Zurich';
 
@@ -57,6 +59,9 @@ const App = () => {
       <div>
         <Routes>
           <Route path='/Barcelona' element={<Barcelona />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Beijing' element={<Beijing />}/>
         </Routes>
         <Routes>
           <Route path='/Berlin' element={<Berlin />}/>
@@ -177,6 +182,9 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path='/Wien' element={<Wien />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Wuhan' element={<Wuhan />}/>
         </Routes>
         <Routes>
           <Route path='/Zollverein' element={<Zollverein />}/>
