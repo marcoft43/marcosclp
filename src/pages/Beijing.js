@@ -10,7 +10,7 @@ const Beijing = () => {
           <img src={Beijing1} alt="Beijing" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar burgundy-red"></div>
-            <span className="text">Beijing - The Prayers Hall at the Heaven Temple</span>
+            <span className="text">Beijing - The Prayers Hall at the Heaven Temple 天坛祈年殿</span>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ const Wuhan = () => {
           <img src={Wuhan1} alt="Wuhan" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar burgundy-red"></div>
-            <span className="text">Wuhan - Hankow Jianghan Rd</span>
+            <span className="text">Wuhan - Hankow Jianghan Rd 汉口江汉路</span>
           </div>
         </div>
       </div>
