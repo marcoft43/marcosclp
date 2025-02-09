@@ -9,7 +9,7 @@ const Front_Navbar = () => {
       <Container className="front-navbar">
         <Nav className="custom-nav">
           <Nav.Link href="/Barcelona" className='me-3 navbar-phone'>Barcelona</Nav.Link>
-          <Nav.Link href="/Beijing" className='me-3 navbar-phone'>Beijing</Nav.Link>
+          <Nav.Link href="/Beijing" className='me-3 navbar-camera'>Beijing</Nav.Link>
           <Nav.Link href="/Berlin" className='me-3 navbar-camera'>Berlin</Nav.Link>
           <Nav.Link href="/Bologna" className='me-3 navbar-phone'>Bologna</Nav.Link>
           <Nav.Link href="/Bronte" className='me-3 navbar-phone'>Bronte</Nav.Link>
