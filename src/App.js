@@ -53,7 +53,7 @@ const App = () => {
   return (
     <Router>
       <header className="App-header">
-        <h2>Eine Besondere Vergänglichkeit</h2>
+        <h2>Marcos Photos</h2>
       </header>
       <Front_Navbar />
       <div>
