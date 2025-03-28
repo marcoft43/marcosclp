@@ -40,6 +40,7 @@ const Front_Navbar = () => {
           <Nav.Link href="/Palermo" className='me-3 navbar-phone'>Palermo</Nav.Link>
           <Nav.Link href="/Pisa" className='me-3 navbar-phone'>Pisa</Nav.Link>
           <Nav.Link href="/Potsdam" className='me-3 navbar-camera'>Potsdam</Nav.Link>
+          <Nav.Link href="/Poznan" className='me-3 navbar-camera'>Poznań</Nav.Link>
           <Nav.Link href="/Praha" className='me-3 navbar-camera'>Praha</Nav.Link>
           <Nav.Link href="/Ragusa" className='me-3 navbar-camera'>Ragusa</Nav.Link>
           <Nav.Link href="/Rostock" className='me-3 navbar-phone'>Rostock</Nav.Link>

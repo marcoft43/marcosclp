@@ -33,6 +33,7 @@ import OSU from './pages/OSU';
 import Palermo from './pages/Palermo';
 import Pisa from './pages/Pisa';
 import Potsdam from './pages/Potsdam';
+import Poznan from './pages/Poznan';
 import Praha from './pages/Prague';
 import Ragusa from './pages/Ragusa';
 import Rostock from './pages/Rostock';
@@ -152,6 +153,9 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path='/Potsdam' element={<Potsdam />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Poznan' element={<Poznan />}/>
         </Routes>
         <Routes>
           <Route path='/Praha' element={<Praha />}/>
