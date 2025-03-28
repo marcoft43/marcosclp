@@ -23,7 +23,7 @@ const Poznan = () => {
           <img src={Poznan2} alt="Poznan" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar emerald"></div>
-            <span className="text">Poznań - Merchants' Hauses</span>
+            <span className="text">Poznań - Merchants' Houses</span>
           </div>
         </div>
         <div className='centered-div'>
