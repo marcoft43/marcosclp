@@ -15,14 +15,14 @@ const Poznan = () => {
         <div className='centered-div'>
           <img src={Poznan1} alt="Poznan" style={{width: '60%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-20">
-            <div className="color-bar cobalt-blue"></div>
+            <div className="color-bar emerald"></div>
             <span className="text">Poznań - Muzeum Historii Miasta Poznania</span>
           </div>
         </div>
         <div className='centered-div'>
           <img src={Poznan2} alt="Poznan" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
-            <div className="color-bar cobalt-blue"></div>
+            <div className="color-bar emerald"></div>
             <span className="text">Poznań - Merchants' Hauses</span>
           </div>
         </div>
