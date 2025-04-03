@@ -3,9 +3,12 @@ import '../App.css';
 import Eibsee1 from '../assets/images/Eibsee.jpg';
 import Eibsee2 from '../assets/images/Eibsee_2.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Eibsee = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={Eibsee1} alt="Eibsee" style={{width: '90%', height: 'auto'}} className="responsive-img"/>

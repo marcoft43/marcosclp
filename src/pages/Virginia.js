@@ -3,9 +3,12 @@ import '../App.css';
 import Virginia1 from '../assets/images/Virginia_1.jpg';
 import Virginia2 from '../assets/images/Virginia_2.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Virginia = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={Virginia1} alt="Virginia" style={{width: '60%', height: 'auto'}} className="responsive-img"/>

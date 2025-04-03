@@ -3,9 +3,12 @@ import '../App.css';
 import HK1 from '../assets/images/HK_1.jpeg';
 import HK2 from '../assets/images/HK_2.jpeg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const HK = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={HK1} alt="HK" style={{width: '60%', height: 'auto'}} className="responsive-img"/>

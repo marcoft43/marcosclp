@@ -3,9 +3,12 @@ import '../App.css';
 import WienGraben from '../assets/images/Wien_Graben.jpeg';
 import WienTram from '../assets/images/Wien_Tram.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Wien = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={WienGraben} alt="WienGraben" style={{width: '90%', height: 'auto'}} className="responsive-img"/>

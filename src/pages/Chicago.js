@@ -5,9 +5,12 @@ import Chicago2 from '../assets/images/Chicago_2.jpg';
 import Chicago3 from '../assets/images/Chicago_3.jpeg';
 import Chicago4 from '../assets/images/Chicago_4.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Chicago = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={Chicago1} alt="Chicago" style={{width: '60%', height: 'auto'}} className="responsive-img"/>

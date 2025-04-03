@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Front_Navbar from './components/front_navbar';
+import Pictures_Navbar from './components/pictures_navbar';
 import Barcelona from './pages/Barcelona';
 import Beijing from './pages/Beijing';
 import Berlin from "./pages/Berlin";
@@ -48,17 +48,15 @@ import Wuhan from './pages/Wuhan';
 import Zollverein from './pages/Zollverein';
 import Zurich from './pages/Zurich';
 
-import Plants from './Plants';
-
 import './App.css';
 
-const App = () => {
+const Pictures = () => {
   return (
-    <Router>
+    <div>
       <header className="App-header">
         <h2>Marcos Photos</h2>
       </header>
-      <Front_Navbar />
+      <Pictures_Navbar />
       <div>
         <Routes>
           <Route path='/Barcelona' element={<Barcelona />}/>
@@ -198,12 +196,9 @@ const App = () => {
         <Routes>
           <Route path='/Zurich' element={<Zurich />}/>
         </Routes>
-        <Routes>
-          <Route path='/Plants' element={<Plants />}/>
-        </Routes>
       </div>
-    </Router>
+    </div>
   );
 }
 
-export default App;
+export default Pictures;

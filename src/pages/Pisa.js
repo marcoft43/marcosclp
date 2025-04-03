@@ -3,9 +3,12 @@ import '../App.css';
 import Pisa1 from '../assets/images/Pisa_1.jpg';
 import Pisa2 from '../assets/images/Pisa_Sunset.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Pisa = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={Pisa1} alt="Pisa" style={{width: '60%', height: 'auto'}} className="responsive-img"/>

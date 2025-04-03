@@ -3,9 +3,12 @@ import '../App.css';
 import BronteEtna from '../assets/images/Bronte_Etna.jpg';
 import BronteSunset from '../assets/images/Bronte_Sunset.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Bronte = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={BronteEtna} alt="Bronte Etna" style={{width: '90%', height: 'auto'}} className="responsive-img"/>

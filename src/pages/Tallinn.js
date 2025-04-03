@@ -5,9 +5,12 @@ import Tallinn2 from '../assets/images/Tallinn_Kohtu.jpg';
 import TallinnK from '../assets/images/Tallinn_K.jpg';
 import TallinnV from '../assets/images/Tallinn_V.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Tallinn = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={Tallinn1} alt="Tallinn Vanalinn" style={{width: '90%', height: 'auto'}} className="responsive-img"/>

@@ -3,9 +3,12 @@ import '../App.css';
 import Koln1 from '../assets/images/Koln_Dom.jpeg';
 import Koln2 from '../assets/images/Koln_Dom_Nacht.jpeg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Koln = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={Koln1} alt="Kölner Dom" style={{width: '60%', height: 'auto'}} className="responsive-img"/>

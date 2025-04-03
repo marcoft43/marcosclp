@@ -8,9 +8,12 @@ import Ragusa4 from '../assets/images/Ragusa_4.jpeg';
 import RagusaCat from '../assets/images/Ragusa_Cat.jpeg';
 import RagusaCattedrale from '../assets/images/Ragusa_Cattedrale.jpeg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Ragusa = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
       <div className='centered-div'>
           <img src={Ragusa0} alt="Ragusa" style={{width: '90%', height: 'auto'}} className="responsive-img"/>

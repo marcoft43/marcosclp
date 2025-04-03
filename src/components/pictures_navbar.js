@@ -3,7 +3,7 @@ import '../App.css';
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 
-const Front_Navbar = () => {
+const Pictures_Navbar = () => {
   return (
     <Navbar bg="dark" data-bs-theme="dark">
       <Container className="front-navbar">
@@ -60,4 +60,4 @@ const Front_Navbar = () => {
   );
 };
 
-export default Front_Navbar;
+export default Pictures_Navbar;

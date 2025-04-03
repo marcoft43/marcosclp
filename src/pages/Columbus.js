@@ -8,9 +8,12 @@ import Columbus5 from '../assets/images/Columbus_5.jpg';
 import Columbus6 from '../assets/images/Columbus_6.jpg';
 import Columbus7 from '../assets/images/Columbus_7.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Columbus = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={Columbus1} alt="Columbus" style={{width: '60%', height: 'auto'}} className="responsive-img"/>

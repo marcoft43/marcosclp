@@ -4,9 +4,12 @@ import Barcelona1 from '../assets/images/Barcelona_Barceloneta.jpg';
 import Barcelona2 from '../assets/images/Barcelona_Eixample.jpg';
 import Barcelona3 from '../assets/images/Barcelona_Xurro.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Barcelona = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={Barcelona1} alt="Barcelona Barceloneta" style={{width: '60%', height: 'auto'}} className="responsive-img"/>

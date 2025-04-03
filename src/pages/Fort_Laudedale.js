@@ -2,9 +2,12 @@ import '../App.css';
 
 import FL1 from '../assets/images/FL.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const FL = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={FL1} alt="FL" style={{width: '60%', height: 'auto'}} className="responsive-img"/>

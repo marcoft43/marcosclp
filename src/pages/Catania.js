@@ -8,9 +8,12 @@ import CataniaGaribaldi from '../assets/images/Catania_Garibaldi.jpeg';
 import CataniaVermut from '../assets/images/Catania_Vermut.jpg';
 import CataniaPescheria from '../assets/images/Catania_Pescheria.jpeg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Catania = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={CataniaGiuliano} alt="Catania Lido" style={{width: '90%', height: 'auto'}} className="responsive-img"/>

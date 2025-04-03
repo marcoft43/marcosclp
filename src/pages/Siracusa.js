@@ -8,9 +8,12 @@ import SiracusaCat from '../assets/images/Siracusa_Cat.jpeg';
 import SiracusaShop from '../assets/images/Siracusa_Passeggio.jpeg';
 import SiracusaSunset from '../assets/images/Siracusa_Sunset.jpeg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Siracusa = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={SiracusaNeapolis} alt="Siracusa Neapolis" style={{width: '90%', height: 'auto'}} className="responsive-img"/>

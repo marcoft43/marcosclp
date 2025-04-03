@@ -8,9 +8,12 @@ import BerlinBrandenburgTor from '../assets/images/Berlin_Brandenburg_Tor.jpeg';
 import BerlinKreuzberg from '../assets/images/Berlin_Kreuzberg.jpg';
 import BerlinMuseumsinsel from '../assets/images/Berlin_Museumsinsel.jpeg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Berlin = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={BerlinKudamm} alt="Berlin Kudamm" style={{width: '90%', height: 'auto'}} className="responsive-img"/>

@@ -5,9 +5,12 @@ import PragueStreet from '../assets/images/Praha_Hastalsky.jpg';
 import PragueBridge from '../assets/images/Praha_Mala_Strana.jpeg';
 import PragueTram from '../assets/images/Praha_Karmelitska.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Praha = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
       <div className='centered-div'>
           <img src={PragueBridge} alt="Prague Bridge" style={{width: '90%', height: 'auto'}} className="responsive-img"/>

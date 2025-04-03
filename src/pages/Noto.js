@@ -4,9 +4,12 @@ import Noto1 from '../assets/images/Noto_1.jpeg';
 import Noto2 from '../assets/images/Noto_2.jpeg';
 import NotoCar from '../assets/images/Noto_Car.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Noto = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
       <div className='centered-div'>
           <img src={Noto1} alt="Noto" style={{width: '90%', height: 'auto'}} className="responsive-img"/>

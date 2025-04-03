@@ -3,9 +3,12 @@ import '../App.css';
 import Firenze1 from '../assets/images/Firenze_Duomo.jpg';
 import Firenze2 from '../assets/images/Firenze_David.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Firenze = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={Firenze1} alt="Firenze Duomo" style={{width: '60%', height: 'auto'}} className="responsive-img"/>

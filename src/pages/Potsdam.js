@@ -3,9 +3,12 @@ import '../App.css';
 import Potsdam1 from '../assets/images/Potsdam_Sanssouci.jpg';
 import Potsdam2 from '../assets/images/Potsdam_Orangerieschloss.jpeg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Potsdam = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={Potsdam1} alt="Potsdam Sanssouci" style={{width: '60%', height: 'auto'}} className="responsive-img"/>

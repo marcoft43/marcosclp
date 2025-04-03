@@ -8,9 +8,12 @@ import MunichNeuperlach from '../assets/images/Munich_Neuperlach.jpg';
 import MunichSchwabing from '../assets/images/Munich_Schwabing.jpg';
 import MunichOlympiapark from '../assets/images/Munich_Olympiapark.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Munich = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={MunichSendlingerTor} alt="Munich Sendlinger Tor" style={{width: '90%', height: 'auto'}} className="responsive-img"/>

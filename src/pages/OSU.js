@@ -9,9 +9,12 @@ import OSU5 from '../assets/images/OSU_out.jpg';
 import OSU7 from '../assets/images/OSU_Orton.jpg';
 import OSU8 from '../assets/images/OSU_Oval_2.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const OSU = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={OSU1} alt="OSU" style={{width: '90%', height: 'auto'}} className="responsive-img"/>

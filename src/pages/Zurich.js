@@ -1,10 +1,12 @@
 import '../App.css';
 
 import ZurichLake from '../assets/images/Zurich.jpeg';
+import Pictures_Navbar from '../components/pictures_navbar';
 
 const Zurich = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={ZurichLake} alt="Zurick Lake" style={{width: '60%', height: 'auto'}} className="responsive-img"/>

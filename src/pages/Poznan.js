@@ -8,9 +8,12 @@ import Poznan4 from '../assets/images/Poznan_4.jpeg';
 import Poznan5 from '../assets/images/Poznan_5.jpeg';
 import Poznan6 from '../assets/images/Poznan_6.jpeg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Poznan = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={Poznan1} alt="Poznan" style={{width: '60%', height: 'auto'}} className="responsive-img"/>

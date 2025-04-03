@@ -3,9 +3,12 @@ import '../App.css';
 import Madison1 from '../assets/images/UWMadison.jpg';
 import Madison2 from '../assets/images/Wisconsin_Capitol.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Madison = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={Madison1} alt="Madison" style={{width: '60%', height: 'auto'}} className="responsive-img"/>

@@ -3,9 +3,12 @@ import '../App.css';
 import Helsinki1 from '../assets/images/Helsinki_Sunrise.jpg';
 import Helsinki2 from '../assets/images/Helsinki_Street.jpg';
 
+import Pictures_Navbar from '../components/pictures_navbar';
+
 const Helsinki = () => {
   return(
     <div className="App">
+      <Pictures_Navbar></Pictures_Navbar>
       <div className='container'>
         <div className='centered-div'>
           <img src={Helsinki1} alt="Helsinki Sunrise" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
