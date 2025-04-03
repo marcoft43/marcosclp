@@ -64,6 +64,12 @@ function Plants() {
 
   return (
     <div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <h4 class="center-text">Current Rose Pot Condition</h4>
       <h5 class="center-text">Time: {currentTimeState}</h5>
       <h5 class="center-text">Soil Temperature: {temperatureCState}°C, {temperatureFState}°F</h5>
