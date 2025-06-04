@@ -16,6 +16,7 @@ const Pictures_Navbar = () => {
           <Nav.Link href="/Catania" className='me-3 navbar-camera'>Catania</Nav.Link>
           <Nav.Link href="/Chicago" className='me-3 navbar-phone'>Chicago</Nav.Link>
           <Nav.Link href="/Columbus" className='me-3 navbar-phone'>Columbus</Nav.Link>
+          <Nav.Link href="/Cote" className='me-3 navbar-camera'>Côte d'Azur</Nav.Link>
           <Nav.Link href="/Dresden" className='me-3 navbar-phone'>Dresden</Nav.Link>
           <Nav.Link href="/Dusseldorf" className='me-3 navbar-camera'>Düsseldorf</Nav.Link>
           <Nav.Link href="/Eibsee" className='me-3 navbar-phone'>Eibsee</Nav.Link>
@@ -34,7 +35,6 @@ const Pictures_Navbar = () => {
           <Nav.Link href="/Madison" className='me-3 navbar-phone'>Madison</Nav.Link>
           <Nav.Link href="/Monaco" className='me-3 navbar-camera'>Monaco</Nav.Link>
           <Nav.Link href="/Munich" className='me-3 navbar-phone'>München</Nav.Link>
-          <Nav.Link href="/Cote" className='me-3 navbar-camera'>Côte d'Azur</Nav.Link>
           <Nav.Link href="/Noto" className='me-3 navbar-camera'>Noto</Nav.Link>
           <Nav.Link href="/Nuremberg" className='me-3 navbar-phone'>Nürnberg</Nav.Link>
           <Nav.Link href="/NYC" className='me-3 navbar-phone'>New York City</Nav.Link>
