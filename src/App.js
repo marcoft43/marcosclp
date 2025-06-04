@@ -86,6 +86,9 @@ const App = () => {
           <Route path='/Columbus' element={<Columbus />}/>
         </Routes>
         <Routes>
+          <Route path='/Nice' element={<Nice />}/>
+        </Routes>
+        <Routes>
           <Route path='/Dresden' element={<Dresden />}/>
         </Routes>
         <Routes>
@@ -135,9 +138,6 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path='/Munich' element={<Munich />}/>
-        </Routes>
-        <Routes>
-          <Route path='/Nice' element={<Nice />}/>
         </Routes>
         <Routes>
           <Route path='/Noto' element={<Noto />}/>
