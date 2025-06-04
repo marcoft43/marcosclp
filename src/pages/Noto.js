@@ -15,21 +15,21 @@ const Noto = () => {
           <img src={Noto1} alt="Noto" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar pumpkin-orange"></div>
-            <span className="text">Noto - A street</span>
+            <span className="text">Noto</span>
           </div>
         </div>
         <div className='centered-div'>
           <img src={Noto2} alt="Noto" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar pumpkin-orange"></div>
-            <span className="text">Noto - A Caffè</span>
+            <span className="text">Noto</span>
           </div>
         </div>
         <div className='centered-div'>
           <img src={NotoCar} alt="Noto" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar burgundy-red"></div>
-            <span className="text">Noto - A car</span>
+            <span className="text">Noto</span>
           </div>
         </div>
       </div>

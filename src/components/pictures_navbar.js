@@ -17,7 +17,7 @@ const Pictures_Navbar = () => {
           <Nav.Link href="/Chicago" className='me-3 navbar-phone'>Chicago</Nav.Link>
           <Nav.Link href="/Columbus" className='me-3 navbar-phone'>Columbus</Nav.Link>
           <Nav.Link href="/Cote" className='me-3 navbar-camera'>Côte d'Azur</Nav.Link>
-          <Nav.Link href="/Dresden" className='me-3 navbar-phone'>Dresden</Nav.Link>
+          <Nav.Link href="/Dresden" className='me-3 navbar-camera'>Dresden</Nav.Link>
           <Nav.Link href="/Dusseldorf" className='me-3 navbar-camera'>Düsseldorf</Nav.Link>
           <Nav.Link href="/Eibsee" className='me-3 navbar-phone'>Eibsee</Nav.Link>
           <Nav.Link href="/Erfurt" className='me-3 navbar-phone'>Erfurt</Nav.Link>
