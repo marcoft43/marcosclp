@@ -26,6 +26,7 @@ import Leipzig from './pages/Leipzig';
 import Livorno from './pages/Livorno';
 import Madison from './pages/Madison';
 import Munich from './pages/Munich';
+import Nice from './pages/Nice';
 import Noto from './pages/Noto';
 import Nuremberg from './pages/Nuremberg';
 import NYC from './pages/NYC';
@@ -134,6 +135,9 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path='/Munich' element={<Munich />}/>
+        </Routes>
+        <Routes>
+          <Route path='/Nice' element={<Nice />}/>
         </Routes>
         <Routes>
           <Route path='/Noto' element={<Noto />}/>
