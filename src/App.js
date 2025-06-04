@@ -9,6 +9,7 @@ import Bronte from './pages/Bronte';
 import Catania from "./pages/Catania";
 import Chicago from './pages/Chicago';
 import Columbus from './pages/Columbus';
+import Cote from './pages/Cote';
 import Dresden from './pages/Dresden';
 import Dusseldorf from './pages/Dusseldorf';
 import Eibsee from './pages/Eibsee';
@@ -27,7 +28,6 @@ import Livorno from './pages/Livorno';
 import Madison from './pages/Madison';
 import Monaco from './pages/Monaco';
 import Munich from './pages/Munich';
-import Nice from './pages/Nice';
 import Noto from './pages/Noto';
 import Nuremberg from './pages/Nuremberg';
 import NYC from './pages/NYC';
@@ -87,7 +87,7 @@ const App = () => {
           <Route path='/Columbus' element={<Columbus />}/>
         </Routes>
         <Routes>
-          <Route path='/Nice' element={<Nice />}/>
+          <Route path='/Cote' element={<Cote />}/>
         </Routes>
         <Routes>
           <Route path='/Dresden' element={<Dresden />}/>

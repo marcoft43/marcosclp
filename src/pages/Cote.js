@@ -6,7 +6,7 @@ import Menton from '../assets/images/Menton.jpeg';
 
 import Pictures_Navbar from '../components/pictures_navbar';
 
-const Nice = () => {
+const Cote = () => {
   return(
     <div className="App">
       <Pictures_Navbar></Pictures_Navbar>
@@ -37,4 +37,4 @@ const Nice = () => {
   );
 }
 
-export default Nice;
+export default Cote;
