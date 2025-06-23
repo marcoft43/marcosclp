@@ -13,7 +13,7 @@ const Ulm = () => {
           <img src={Ulm1} alt="Ulm" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar dark-pastel-orange"></div>
-            <span className="text">Ulm - Minster</span>
+            <span className="text">Ulm - Münster</span>
           </div>
         </div>
       </div>
