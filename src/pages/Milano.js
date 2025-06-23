@@ -36,13 +36,6 @@ const Milano = () => {
           </div>
         </div>
         <div className='centered-div'>
-          <img src={Milan_3} alt="Milano" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
-          <div className="text-with-bar padding-left-5">
-            <div className="color-bar french-vermilion"></div>
-            <span className="text">Minalo - Castello Sforzesco</span>
-          </div>
-        </div>
-        <div className='centered-div'>
           <img src={Milan_4} alt="Milano" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar cadmium-yellow"></div>
