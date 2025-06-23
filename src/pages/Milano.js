@@ -46,7 +46,7 @@ const Milano = () => {
           <img src={Milan_6} alt="Milano" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar cool-grey"></div>
-            <span className="text">Minalo - Corse Buenos Aires</span>
+            <span className="text">Minalo - Corso Buenos Aires</span>
           </div>
         </div>
         <div className='centered-div'>
