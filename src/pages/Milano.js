@@ -25,35 +25,35 @@ const Milano = () => {
           <img src={Milan_2} alt="Milano" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar cadmium-red"></div>
-            <span className="text">Minalo - Piazza Castello Cairoli</span>
+            <span className="text">Milano - Piazza Castello Cairoli</span>
           </div>
         </div>
         <div className='centered-div'>
           <img src={Milan_3} alt="Milano" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar french-vermilion"></div>
-            <span className="text">Minalo - Castello Sforzesco</span>
+            <span className="text">Milano - Castello Sforzesco</span>
           </div>
         </div>
         <div className='centered-div'>
           <img src={Milan_4} alt="Milano" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar cadmium-yellow"></div>
-            <span className="text">Minalo - UniCredit</span>
+            <span className="text">Milano - UniCredit</span>
           </div>
         </div>
         <div className='centered-div'>
           <img src={Milan_6} alt="Milano" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar cool-grey"></div>
-            <span className="text">Minalo - Corso Buenos Aires</span>
+            <span className="text">Milano - Corso Buenos Aires</span>
           </div>
         </div>
         <div className='centered-div'>
           <img src={Milan_5} alt="Milano" style={{width: '90%', height: 'auto'}} className="responsive-img"/>
           <div className="text-with-bar padding-left-5">
             <div className="color-bar cool-grey"></div>
-            <span className="text">Minalo - Napoleone del Canova</span>
+            <span className="text">Milano - Napoleone del Canova</span>
           </div>
         </div>
       </div>
